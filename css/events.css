@@ -1,0 +1,456 @@
+body
+{ 
+	background: url(../images/M_BG.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#content
+{
+	width:50%;
+	margin-left: auto ;
+	margin-right:auto ;
+}
+
+#colorstrip
+{
+    width: 100%; height: 5.5%;
+    border-style: dotted;
+    border-color: white;
+}
+
+#colorstrip1
+{
+    width: 100%; height: 60px;
+    border-style: dotted;
+    border-color: white;
+	background-color: maroon;
+}
+
+button 
+{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	display: inline-block;
+	border-radius: 4px;
+	background-color: maroon;
+	border: none;
+	color: white;
+	text-align: center;
+	font-family: Comic Sans MS;
+	font-size: 30px;
+	padding: 20px;
+	width: 250px;
+	transition: all 5s;
+	cursor: pointer;
+	margin: 5px;
+	border-radius: 12px;
+	position: relative;
+}
+
+#but
+{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	display: inline-block;
+	border-radius: 4px;
+	background-color: maroon;
+	border: none;
+	color: white;
+	text-align: center;
+	font-family: Comic Sans MS;
+	font-size: 30px;
+	padding: 20px;
+	width: 300px;
+	transition: all 5s;
+	cursor: pointer;
+	margin: 5px;
+	border-radius: 12px;
+	position: relative;
+}
+button span 
+{
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+button span:after 
+{
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+button:hover span
+{
+	padding-right: 25px;
+}
+
+button:hover span:after 
+{
+	opacity: 1;
+	right: 0;
+}
+
+footer 
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 2.5%;
+    width: 100%;
+    color: #ffffff;
+}
+
+.colwrapper
+{
+    -moz-column-count:3;
+    -webkit-column-count:3;
+    column-count:3;
+}
+
+#cu
+{
+	border-radius: 10%;
+}
+
+button.cnp
+{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	display: inline-block;
+	border-radius: 4px;
+	background-color: maroon;
+	border: none;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	padding: 20px;
+	width: 500px;
+	transition: all 5s;
+	cursor: pointer;
+	margin: 5px;
+	border-radius: 12px;
+	position: relative;
+}
+
+.modal
+{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content 
+{
+    background-color: #fefefe;
+    margin: 50px;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close1
+{
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close1:hover, .close1:focus 
+{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.close2
+{
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close2:hover, .close2:focus 
+{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close3
+{
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close3:hover, .close3:focus 
+{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close4
+{
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close4:hover, .close4:focus 
+{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close5
+{
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close5:hover, .close5:focus 
+{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close6
+{
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close6:hover, .close6:focus 
+{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#flip1 {
+    padding: 5px;
+    text-align: center;
+    background-color: orange;
+    border: solid 1px #c3c3c3;
+	cursor: pointer;
+}
+
+
+#flip2 {
+    padding: 5px;
+    text-align: center;
+    background-color: orange;
+    border: solid 1px #c3c3c3;
+	cursor: pointer;
+}
+
+#flip3 {
+    padding: 5px;
+    text-align: center;
+    background-color: orange;
+    border: solid 1px #c3c3c3;
+	cursor: pointer;
+}
+
+#flip4 {
+    padding: 5px;
+    text-align: center;
+    background-color: orange;
+    border: solid 1px #c3c3c3;
+	cursor: pointer;
+}
+
+#flip5 {
+    padding: 5px;
+    text-align: center;
+    background-color: orange;
+    border: solid 1px #c3c3c3;
+	cursor: pointer;
+}
+
+#flip6 {
+    padding: 5px;
+    text-align: center;
+    background-color: orange;
+    border: solid 1px #c3c3c3;
+	cursor: pointer;
+}
+
+#flip7 {
+    padding: 5px;
+    text-align: center;
+    background-color: orange;
+    border: solid 1px #c3c3c3;
+	cursor: pointer;
+}
+
+#flip8 {
+    padding: 5px;
+    text-align: center;
+    background-color: orange;
+    border: solid 1px #c3c3c3;
+	cursor: pointer;
+}
+
+#flip9 {
+    padding: 5px;
+    text-align: center;
+    background-color: orange;
+    border: solid 1px #c3c3c3;
+	cursor: pointer;
+}
+
+
+#flip10 {
+    padding: 5px;
+    text-align: center;
+    background-color: orange;
+    border: solid 1px #c3c3c3;
+	cursor: pointer;
+}
+
+#flip11 {
+    padding: 5px;
+    text-align: center;
+    background-color: orange;
+    border: solid 1px #c3c3c3;
+	cursor: pointer;
+}
+
+#flip12 {
+    padding: 5px;
+    text-align: center;
+    background-color: orange;
+    border: solid 1px #c3c3c3;
+	cursor: pointer;
+}
+
+#panel1 {
+	font-size: 20;
+	font-family: Comic Sans MS;
+	text-align: center;
+    background-color: yellow;
+    border: solid 1px #c3c3c3;
+    padding: 20px;
+    display: none;
+}
+#panel2 {
+    padding: 20px;
+	font-size: 20;
+	font-family: Comic Sans MS;
+	text-align: center;
+    background-color: yellow;
+    border: solid 1px #c3c3c3;
+    display: none;
+}
+#panel3 {
+    padding: 20px;
+	font-size: 20;
+	font-family: Comic Sans MS;
+	text-align: center;
+    background-color: yellow;
+    border: solid 1px #c3c3c3;
+    display: none;
+}
+#panel4 {
+    padding: 20px;
+	font-size: 20;
+	font-family: Comic Sans MS;
+	text-align: center;
+    background-color: yellow;
+    border: solid 1px #c3c3c3;
+    display: none;
+}
+#panel5 {
+	font-size: 20;
+	font-family: Comic Sans MS;
+	text-align: center;
+    background-color: yellow;
+    border: solid 1px #c3c3c3;
+    padding: 20px;
+    display: none;
+}
+#panel6 {
+    padding: 20px;
+	font-size: 20;
+	font-family: Comic Sans MS;
+	text-align: center;
+    background-color: yellow;
+    border: solid 1px #c3c3c3;
+    display: none;
+}
+#panel7 {
+    padding: 20px;
+	font-size: 20;
+	font-family: Comic Sans MS;
+	text-align: center;
+    background-color: yellow;
+    border: solid 1px #c3c3c3;
+    display: none;
+}
+#panel8 {
+    padding: 20px;
+	font-size: 20;
+	font-family: Comic Sans MS;
+	text-align: center;
+    background-color: yellow;
+    border: solid 1px #c3c3c3;
+    display: none;
+}
+#panel9 {
+	font-size: 20;
+	font-family: Comic Sans MS;
+	text-align: center;
+    background-color: yellow;
+    border: solid 1px #c3c3c3;
+    padding: 20px;
+    display: none;
+}
+#panel10 {
+    padding: 20px;
+	font-size: 20;
+	font-family: Comic Sans MS;
+	text-align: center;
+    background-color: yellow;
+    border: solid 1px #c3c3c3;
+    display: none;
+}
+#panel11 {
+    padding: 20px;
+	font-size: 20;
+	font-family: Comic Sans MS;
+	text-align: center;
+    background-color: yellow;
+    border: solid 1px #c3c3c3;
+    display: none;
+}
+#panel12 {
+    padding: 20px;
+	font-size: 20;
+	font-family: Comic Sans MS;
+	text-align: center;
+    background-color: yellow;
+    border: solid 1px #c3c3c3;
+    display: none;
+}

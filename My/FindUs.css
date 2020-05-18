@@ -1,0 +1,96 @@
+body 
+{ 
+	background: url(M_BG.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#content 
+{
+	width:50%;
+	margin-left: auto ;
+	margin-right:auto ;
+}
+
+#colorstrip
+{
+    width: 100%; height: 60px;
+    border-style: dotted;
+    border-color: white;
+}
+
+#colorstrip1
+{
+    width: 100%; height: 60px;
+    border-style: dotted;
+    border-color: white;
+	background-color: maroon;
+}
+
+button 
+{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	display: inline-block;
+	border-radius: 4px;
+	background-color: maroon;
+	border: none;
+	color: white;
+	text-align: center;
+	font-family: Comic Sans MS;
+	font-size: 30px;
+	padding: 20px;
+	width: 250px;
+	transition: all 5s;
+	cursor: pointer;
+	margin: 5px;
+	border-radius: 12px;
+	position: relative;
+}
+
+button span 
+{
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+button span:after 
+{
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+button:hover span 
+{
+	padding-right: 25px;
+}
+
+button:hover span:after 
+{
+	opacity: 1;
+	right: 0;
+}
+  
+footer 
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 2.5%;
+    width: 100%;
+    color: #ffffff;
+}
+
+.colwrapper
+{
+    -moz-column-count:3;
+    -webkit-column-count:3;
+    column-count:3;
+}
